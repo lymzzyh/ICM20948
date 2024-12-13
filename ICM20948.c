@@ -14,6 +14,9 @@
 #include "ICM20948.h"
 #include <string.h>
 
+uint16_t accel_data[3];
+uint16_t gyro_data[3];
+int16_t mag_data[3];
 
 
 /*
