@@ -8,9 +8,9 @@
 #ifndef ICM20948_H_
 #define ICM20948_H_
 
-uint16_t accel_data[3];
-uint16_t gyro_data[3];
-int16_t mag_data[3];
+extern uint16_t accel_data[3];
+extern uint16_t gyro_data[3];
+extern int16_t mag_data[3];
 
 #define SPI_BUS			(&hspi1) // ***
 #define UART_BUS		(&huart3) // ***
